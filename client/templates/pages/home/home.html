@@ -1,7 +1,5 @@
 <template name="home">
 	<div class="col-xs-12 dashboard">
-		<p class="msg">
-			Home
-		</p>
+			{{> quickForm schema="postSchema" meteormethod="createPost" id="createPost"}}
 	</div>
 </template>
